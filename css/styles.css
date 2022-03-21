@@ -88,6 +88,11 @@ h2{
 
 .price-button{
     border-radius: 28px;
+    color: #ef8172;
+    background: #fff;
+    border-color: #ff4c68;
+    font-family: montserrat;
+    padding: 5px 10px 5px 10px;
 }
 
 .pricing-copy{
