@@ -8,6 +8,7 @@
     padding: 3% 15%;
 }
 
+/* Navbar */
 .navbar{
     background-color: #ff4c6b;
     padding-bottom: 4.5rem;
@@ -29,11 +30,13 @@
    justify-content: flex-end;
 }
 
+/* Title */
 .title-image{
     width: 60%;
     transform: rotate(45deg);
 }
 
+/* Features */
 .fa-solid{
     color: #ef8172;
     margin-bottom: 15px;
@@ -42,7 +45,6 @@
 .fa-solid:hover{
 color: #ff4c68;
 }
-
 
 #features{
     padding: 90px 0;
@@ -55,6 +57,8 @@ color: #ff4c68;
 #features p{
     color: #8f8f8f;
 }
+
+/* Testimonials */
 
 #testimonials{
     text-align: center;
@@ -75,6 +79,8 @@ h2{
 .carousel-item{
     padding: 7% 15%;
 }
+
+/* Press */
 #press{
     text-align: center;
     background-color: #ef8172;
@@ -86,6 +92,7 @@ h2{
     margin: 20px 20px 30px;
 }
 
+/* Pricing */
 .price-button{
     border-radius: 28px;
     color: #ef8172;
@@ -99,6 +106,7 @@ h2{
     padding: 20px;
 }
 
+/* Media Queries */
 @media (max-width: 1028px) {
     #title{
         text-align: center;
@@ -106,11 +114,36 @@ h2{
    .title-image{
     transform: rotate(0);
     padding: 15px 0px 10px;
+}}
 
-}
-}
 @media (min-width: 1028px) {
     .press-logo{
         width: 8%;
         margin: 0px 15px 25px 15px;
     }}
+
+/* Call to action */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 10px 0px;
+    color: #fff;
+    font-family: Montserrat;
+}
+
+.cta-button{
+    padding-bottom: 30px;
+}
+/* footer */
+
+.fa-footer{
+    text-align: center;
+    padding-top: 70px;
+}
+
+.copyright{
+    padding-top: 10px;
+    text-align: center;
+    color: #adb5bd;
+}
