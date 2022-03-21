@@ -106,22 +106,6 @@ h2{
     padding: 20px;
 }
 
-/* Media Queries */
-@media (max-width: 1028px) {
-    #title{
-        text-align: center;
-    }
-   .title-image{
-    transform: rotate(0);
-    padding: 15px 0px 10px;
-}}
-
-@media (min-width: 1028px) {
-    .press-logo{
-        width: 8%;
-        margin: 0px 15px 25px 15px;
-    }}
-
 /* Call to action */
 
 #cta{
@@ -147,3 +131,19 @@ h2{
     text-align: center;
     color: #adb5bd;
 }
+/* Media Queries */
+@media (max-width: 1028px) {
+    #title{
+        text-align: center;
+    }
+   .title-image{
+    transform: rotate(0);
+    padding: 15px 0px 10px;
+}}
+
+@media (min-width: 1028px) {
+    .press-logo{
+        width: 8%;
+        margin: 0px 15px 25px 15px;
+    }}
+
